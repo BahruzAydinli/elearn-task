@@ -1,0 +1,40 @@
+.course_thumb {
+  background-color: white;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  padding: 14px 20px;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  & > img {
+    position: absolute;
+    right: 20px;
+    top: 45%;
+    cursor: pointer;
+  }
+  .course_image {
+    margin-right: 10px;
+    background-color: #ffa2c0;
+    height: 55px;
+    width: 55px;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .course_text {
+    h5 {
+      color: #808191;
+      font-size: 13px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    h5,
+    h3 {
+      line-height: 28px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+@import "./components/Slider/slider";
+
+body {
+  background-color: #fdfdfd;
+}
+#home-page {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  .learn-slider,
+  .learning-paths,
+  .head-text {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .learning-paths {
+    margin-top: -50px;
+    h3 {
+      margin-bottom: 10px;
+      font-size: 17px;
+      padding-left: 10px;
+    }
+    .paths {
+      display: flex;
+      justify-content: space-between;
+    }
+    .l-path {
+      width: 31%;
+    }
+  }
+  .learning-point,
+  .courses,
+  .search-head {
+    background-color: #f5fbff;
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .learning-paths,
+  .courses,
+  .learn-slider {
+    width: 100% !important;
+    margin-top: 0 !important;
+    padding: 0 20px !important;
+  }
+  .search-head {
+    order: -1;
+    #search {
+      padding: 40px 0 20px 0;
+    }
+  }
+  .head-text {
+    h3 {
+      margin-top: 0;
+    }
+  }
+  #sidebar {
+    display: none;
+  }
+}

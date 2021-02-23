@@ -1,0 +1,48 @@
+#sidebar {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+  margin-right: 20px;
+  .logo {
+    display: flex;
+    justify-content: center;
+    padding: 60px 40px 40px 40px;
+  }
+  ul {
+    padding: 0;
+    padding-right: 80px;
+    li {
+      list-style: none;
+    }
+  }
+  .menu-item {
+    padding: 17px 70px 17px 25px;
+    &.active {
+      background-color: #2f3ced;
+      color: white;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      svg {
+        fill: white;
+        color: white;
+        path {
+          fill: white;
+        }
+      }
+    }
+    svg {
+      fill: #a3a3a5;
+      color: #a3a3a5;
+    }
+    color: #a3a3a5;
+    text-decoration: none;
+    display: flex;
+    font-size: 14px;
+    display: flex;
+    img {
+      height: 30px;
+    }
+    span {
+      margin-left: 15px;
+      line-height: 25px;
+    }
+  }
+}
